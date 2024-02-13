@@ -1,0 +1,12 @@
+<main>
+    <div class="favTitle-container">
+        <h2 class="pageTitle">Favorited Trails</h2>
+        <p id="favDescription">You will see your favorited trails below</p>
+        <ul id="favoritedList"></ul>
+    </div>
+    <div class="trails-container">
+        {{#each trails}}
+            {{> trail}}
+        {{/each}}
+    </div>
+</main>
